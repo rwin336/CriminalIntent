@@ -27,7 +27,6 @@ public class CrimeLab {
             mCrimes = new ArrayList<Crime>();
             Log.e(TAG, "Error loading crimes: ", e);
         }
-
      }
 
     public static CrimeLab get( Context c) {
