@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.bnr.android.criminalintent.CrimeActivity$PlaceholderFragment" >
-
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -38,7 +36,6 @@
         android:text="@string/crime_date_label"
         style="?android:listSeparatorTextViewStyle"
         />
-
 
     <Button
         android:id="@+id/crime_date"
